@@ -1,3 +1,52 @@
 *{
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+header{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.nav{
+    background-color: aquamarine;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container-nav{
+    padding: 1px;
+    background-color: black;
+    display: flex;
+    width: 50%;
+
+}
+
+div{
+    background-color: yellow;
+    text-align: center;
+    border: 1px dotted black;
+    width: 100%;
+    justify-content: center;
+}
+
+div.link{
+    width: 200%;
+}
+
+
+section.front{
+    background-color: aqua;
+    width: 100%;
+    height: 80%;
+}
+
