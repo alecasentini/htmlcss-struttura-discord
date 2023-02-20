@@ -7,7 +7,7 @@
 header{
     background-color: blue;
     width: 100%;
-    height: 500px;
+    height: 750px;
     padding: 2px;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ div.container-nav{
     padding: 1px;
     background-color: black;
     display: flex;
-    width: 50%;
+    width: 70%;
 
 }
 
@@ -36,6 +36,15 @@ header div{
     border: 3px dotted black;
     width: 100%;
     justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li{
+    margin: 0 10px;
 }
 
 header .link{
@@ -63,23 +72,66 @@ section.front{
 div.purple{
     background-color: purple;
     height: 100%;
-    width: 40%;
+    width: 50%;
     border: 3px dotted black;
 }
 
 .section-1,
 .section-2,
 .section-3{
-    height: 500px;
+    height: 900px;
     display: flex;
-    padding: 20px 0;
+    padding: 100px 0;
     justify-content: center;
+    position: relative;
+}
+.custom-shape-divider-bottom-1676906527 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: lightgray;
+}
+
+.custom-shape-divider-bottom-1676906527 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1676906527 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1676906746 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: lightgray;
+    transform: rotate(180deg)
+}
+
+.custom-shape-divider-top-1676906746 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-top-1676906746 .shape-fill {
+    fill: #FFFFFF;
 }
 
 .section-4{
-    height: 800px;
+    height: 1200px;
     display: flex;
-    padding: 20px 0;
+    padding: 100px 0;
     justify-content: center;
 }
 
@@ -88,10 +140,8 @@ main section:nth-child(even){
 }
 
 main div{
-    width: 50%;
-    background-color: black;
+    width: 70%;
     display: flex;
-    padding: 1px;
     
 }
 
@@ -120,7 +170,7 @@ main div{
 footer{
     background-color: darkblue;
     width: 100%;
-    height: 600px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,7 +179,7 @@ footer{
 
 footer section.nav{
     background-color: black;
-    width: 50%;
+    width: 70%;
     height: 80%;
     margin: 20px 0;
     display: flex;
@@ -155,7 +205,7 @@ hr{
 }
 
 footer .login{
-    width: 50%;
+    width: 70%;
     height: 20%;
     background-color: aquamarine ;
     margin: 20px 0 ;
