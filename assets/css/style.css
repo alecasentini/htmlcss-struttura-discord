@@ -33,14 +33,21 @@ div.container-nav{
 
 header div{
     background-color: yellow;
-    text-align: center;
     border: 3px dotted black;
     width: 100%;
     justify-content: center;
 }
 
-div.link{
-    width: 200%;
+header .link{
+    text-align: center;
+}
+
+header .login{
+    text-align: end;
+}
+
+header .logo , .login{
+    flex-basis: 25%;
 }
 
 
@@ -147,7 +154,7 @@ hr{
     width: 100%;
 }
 
-.login{
+footer .login{
     width: 50%;
     height: 20%;
     background-color: aquamarine ;
