@@ -31,7 +31,7 @@ div.container-nav{
 
 }
 
-div{
+header div{
     background-color: yellow;
     text-align: center;
     border: 3px dotted black;
@@ -57,6 +57,44 @@ div.purple{
     background-color: purple;
     height: 100%;
     width: 40%;
+    border: 3px dotted black;
+}
+
+.section-1,
+.section-2,
+.section-3{
+    height: 500px;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.section-4{
+    height: 800px;
+    display: flex;
+}
+
+main section:nth-child(even){
+    background-color: lightgray;
+}
+
+main div{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    padding: 1px;
+    
+}
+
+.pink{
+    background-color: pink;
+    width: 30%;
+    border: 3px dotted black;
+}
+
+.sky{
+    background-color: skyblue;
+    width: 70%;
     border: 3px dotted black;
 }
 
