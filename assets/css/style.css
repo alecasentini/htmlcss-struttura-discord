@@ -13,7 +13,7 @@ header{
     flex-direction: column;
 }
 
-section.nav{
+header section.nav{
     background-color: aquamarine;
     width: 100%;
     height: 20%;
@@ -72,6 +72,8 @@ div.purple{
 .section-4{
     height: 800px;
     display: flex;
+    padding: 20px 0;
+    justify-content: center;
 }
 
 main section:nth-child(even){
@@ -97,7 +99,50 @@ main div{
     width: 70%;
     border: 3px dotted black;
 }
+
 .section-2 .pink{
     order:-1;
 }
 
+.green{
+    background-color: green;
+    width: 100%;
+    border: 3px dotted black;
+}
+
+footer{
+    background-color: darkblue;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer section.nav{
+    background-color: black;
+    width: 50%;
+    height: 75%;
+    margin: 20px 0;
+    display: flex;
+}
+
+aside{
+    width: 30%;
+    height: 100%;
+    background-color: lightcoral;
+    border: 3px dotted black;
+}
+
+footer .nav div{
+    width: calc((100%-30%) /4);
+    background-color: greenyellow;
+    height: 100%;
+    border: 3px dotted black;
+
+}
+
+hr{
+    width: 100%;
+}
