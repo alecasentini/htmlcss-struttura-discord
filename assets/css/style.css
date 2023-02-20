@@ -97,4 +97,7 @@ main div{
     width: 70%;
     border: 3px dotted black;
 }
+.section-2 .pink{
+    order:-1;
+}
 
