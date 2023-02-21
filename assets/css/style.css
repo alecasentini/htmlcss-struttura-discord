@@ -82,6 +82,8 @@ div.purple{
     justify-content: center;
     position: relative;
 }
+
+/* wave css-svg bottom */
 .custom-shape-divider-bottom-1676906527 {
     position: absolute;
     bottom: 0;
@@ -103,6 +105,7 @@ div.purple{
     fill: #FFFFFF;
 }
 
+/* wave css-svg top */
 .custom-shape-divider-top-1676906746 {
     position: absolute;
     top: 0;
